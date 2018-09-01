@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.root.azkar.SettingsActivity"
+    android:background="#ab0fb606"
+    android:layout_margin="5dp"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:padding="10dp"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="الاعدادات"
+            android:fontFamily="@font/cairolight"
+            android:textSize="25dp"
+            android:gravity="right"
+            android:layout_gravity="right"
+
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/zekr_bg"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+
+            >
+
+
+            <Button
+                android:id="@+id/btnFontType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="#ab0fb606"
+                android:fontFamily="@font/cairolight"
+                android:padding="15dp"
+                android:text="نوع الخط"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+
+                />
+
+
+            <Button
+                android:id="@+id/btn_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="#ab0fb606"
+                android:fontFamily="@font/cairolight"
+                android:padding="15dp"
+                android:text="اعدادات اللغه"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+
+                />
+
+            <Button
+                android:id="@+id/btn_zekr_alarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="#ab0fb606"
+                android:fontFamily="@font/cairolight"
+                android:padding="15dp"
+                android:text="التنبيه بالذكر"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+
+                />
+
+
+            <Button
+                android:id="@+id/btn_share_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="#ab0fb606"
+                android:fontFamily="@font/cairolight"
+                android:padding="15dp"
+                android:text="مشاركه التطبيق"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="5dp"
+                android:gravity="right"
+
+
+                />
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

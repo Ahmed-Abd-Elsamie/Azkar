@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Azkar</string>
+
+
+    <string-array name="zekr">
+        <item>أزكار</item>
+        <item>المسلم</item>
+        <item>اليوميه</item>
+
+    </string-array>
+
+    <string-array name="zekr2">
+        <item>ازكار المسلم</item>
+        <item>تساعدك في الحفاظ</item>
+        <item>علي نفسك من</item>
+        <item>كل سوء</item>
+
+
+    </string-array>
+
+
+    <string-array name="azan">
+
+        <item>اذان مصر</item>
+        <item>اذان الحرم المكي</item>
+        <item>اذان الحرم المدني</item>
+        <item>اذان باكستان</item>
+
+
+    </string-array>
+
+    <string name="new_message_notification_title_template"> %1$s</string>
+
+    <!-- TODO: remove this placeholder text -->
+    <string name="new_message_notification_placeholder_text_template"> %1$s .
+
+    </string>
+
+    <string name="action_share">مشاركه</string>
+    <string name="action_reply">قراءه</string>
+
+</resources>

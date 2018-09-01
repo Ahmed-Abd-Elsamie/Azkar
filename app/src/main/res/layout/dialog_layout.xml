@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/dialog_design"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    app:cardCornerRadius="10dp"
+    app:cardBackgroundColor="@color/colorPrimaryDark"
+
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        >
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اقترح دعاء او ذكر  "
+        android:fontFamily="@font/cairolight"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_suggest"
+        android:id="@+id/btn_suggest"
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تابعنا علي فيسبوك   "
+        android:fontFamily="@font/cairolight"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_web"
+        android:id="@+id/btn_follow"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="مشاركه البرنامج   "
+        android:fontFamily="@font/cairolight"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_share"
+        android:id="@+id/btn_share"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="عن البرنامج  "
+        android:fontFamily="@font/cairolight"
+        android:background="@null"
+        android:drawableLeft="@drawable/ic_about"
+        android:id="@+id/btn_about"
+
+
+        />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

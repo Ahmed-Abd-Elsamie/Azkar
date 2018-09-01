@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.root.azkar.MosqueActivity"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimaryDark"
+    android:layout_margin="5dp"
+
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/zekr_bg"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+
+            >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="وجعلت لي الارض مسجدا وطهورا وايما رجل من امتي ادركته الصلاه فل يصل"
+        android:fontFamily="@font/cairolight"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#0fb606"
+        android:textSize="25dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnAzan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="#ab0fb606"
+        android:fontFamily="@font/cairolight"
+        android:padding="15dp"
+        android:text="أذان مصر  "
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="7dp"
+
+        />
+
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="#ab0fb606"
+        android:drawableLeft="@drawable/ic_search"
+        android:fontFamily="@font/cairolight"
+        android:padding="15dp"
+        android:text="ابحث عن مساجد قريبه"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="7dp"
+
+        />
+
+    <Button
+        android:id="@+id/mosq_rules"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="#ab0fb606"
+        android:fontFamily="@font/cairolight"
+        android:padding="15dp"
+        android:text="آداب المساجد"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="7dp"
+
+
+        />
+
+            <Button
+                android:id="@+id/azan_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:background="#ab0fb606"
+                android:fontFamily="@font/cairolight"
+                android:padding="15dp"
+                android:text="حاله الاذان"
+                android:textColor="#fff"
+                android:textSize="20dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginLeft="7dp"
+
+
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
